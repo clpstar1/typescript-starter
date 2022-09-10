@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup --format esm",
-    "server": "npx http-server dist"
+    "start": "npx tsup --format esm && npx http-server"
   },
   "tsup": {
     "entry": [
