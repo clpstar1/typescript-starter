@@ -1,0 +1,20 @@
+{
+  "name": "ts-rustle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup --format esm",
+    "server": "npx http-server dist"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "sourcemap": true,
+    "clean": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
